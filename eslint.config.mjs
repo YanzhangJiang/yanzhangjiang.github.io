@@ -1,7 +1,6 @@
-import antfu from '@antfu/eslint-config'
+import { defineConfig } from 'astro/config'
 
-export default antfu({
-  formatters: true,
-  unocss: true,
-  astro: true,
+export default defineConfig({
+  site: 'https://yanzhangjiang.github.io',
+  output: 'static',
 })
